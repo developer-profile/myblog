@@ -2,4 +2,22 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    models:
+      writing:
+        
+        one: "Title"
+        few: "Titles"
+        many: "Titles"
+        Other: "Titleties"
+
+        
+    attributes:
+      writing:
+        
+        btitle: "Title"
+        bpost: "Post"
+        btags: "Tags"
+        bsection: "Section"
+        bdate: "Date"
+        bimage: "Illustration"

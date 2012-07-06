@@ -1,4 +1,25 @@
 Myblog::Application.routes.draw do
+  
+  resources :writings
+
+  # resources :writing
+  
+  # get "writing/btitle:string"
+
+  # get "writing/bpost:text"
+
+  # get "writing/btags:string"
+
+  # get "writing/bsection:string"
+
+  # get "writing/bdate:datetime"
+
+  # get "writing/bimage:string"
+  
+  match "/writings", to: "writing#index"
+  
+  root to: 'writings#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
