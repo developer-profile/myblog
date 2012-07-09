@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Btitle:</b>
+  <%= @writing.btitle %>
+</p>
+
+<p>
+  <b>Bpost:</b>
+  <%= @writing.bpost %>
+</p>
+
+<p>
+  <b>Btags:</b>
+  <%= @writing.btags %>
+</p>
+
+<p>
+  <b>Bsection:</b>
+  <%= @writing.bsection %>
+</p>
+
+<p>
+  <b>Bdate:</b>
+  <%= @writing.bdate %>
+</p>
+
+<p>
+  <b>Bimage:</b>
+  <%= @writing.bimage %>
+</p>
+
+
+<%= link_to 'Edit', edit_writing_path(@writing) %> | <%= link_to 'Duplicate', duplicate_writing_path(@writing) %> 
+<%= link_to 'Back', writings_path %>

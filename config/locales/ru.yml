@@ -1,0 +1,19 @@
+ru:
+  activerecord:
+    models:
+      writing:
+        one: "Title"
+        few: "Titles"
+        many: "Titles"
+        Other: "Titleties"
+        
+    attributes:
+      
+      writing:
+          
+        btitle: "Тема"
+        bpost: "Пост"
+        btags: "Тэги"
+        bsection: "Разделы"
+        bdate: "Дата"
+        bimage: "Иллюстрация"

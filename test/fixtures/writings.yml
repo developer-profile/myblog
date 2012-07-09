@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  btitle: MyString
+  bpost: MyText
+  btags: MyString
+  bsection: MyString
+  bdate: 2012-07-06 13:33:40
+  bimage: MyString
+
+two:
+  btitle: MyString
+  bpost: MyText
+  btags: MyString
+  bsection: MyString
+  bdate: 2012-07-06 13:33:40
+  bimage: MyString
